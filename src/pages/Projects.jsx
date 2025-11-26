@@ -4,28 +4,28 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
+    title: 'Student-Job-Tracker',
+    desc: 'A full-stack web application to help students track their job applications efficiently. Built with React on the frontend, Node.js + Express on the backend, and MongoDB Atlas for persistent data storage.',
     ss: '/mamo.png',
     tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    live: 'https://student-job-tracker-git-main-pratham3shrauts-projects.vercel.app/',
+    code: 'https://github.com/Pratham3shRaut/Student-job-Tracker'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+  title: 'Virtual-Mouse',
+  desc: 'A computer-vision-based virtual mouse that tracks hand movements to perform cursor actions in real time..                                                                        ',
+  ss: '/virtualmounse.png',
+  tech: ['Python', 'OpenCv', 'MediaPipe.'],
+  live: '#',
+  code: 'https://github.com/Pratham3shRaut/Virtual-Mouse-using-OpenCV-main'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
+    title: 'Register-Login',
+    desc: 'This project is a simple login system built using Node.js and MySQL. It allows users to register and log in to the system. The project demonstrates the integration of a backend server with a MySQL database for user authentication',
     ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
+    tech: ['Node', 'MySQL', 'React', 'Flask'],
     live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    code: 'https://github.com/Pratham3shRaut/Register-Login'
   },
   {
   title: '💼 Portfolio Website',
@@ -33,32 +33,25 @@ const PROJECTS = [
   ss: '/portfolio.jpg',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: '#'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+    title: 'Movie web page',
+    desc: 'created a dynamic movie webpage that uses the TMDb API to fetch real-time movie data, with features like search and category browsing. Built with HTML, CSS, and JavaScript, it offers a clean, responsive, and user-friendly experience',
+    ss: '/moviewebpage.png',
+    tech: ['IMDB API', 'HTML', 'CSS', 'JS'],
+    live: 'https://movie-app-two-brown.vercel.app/',
+    code: 'https://github.com/Pratham3shRaut/movie-app'
   },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
-  }
+  
+  // {
+  //   title: '🧬 Breast Cancer Prediction',
+  //   desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
+  //   ss: '/breastpred.jpg',
+  //   tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+  //   live: '#',
+  //   code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+  // }
 ]
 
 export default function Projects() {

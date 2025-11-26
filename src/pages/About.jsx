@@ -56,28 +56,29 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation, and
-          creativity in technology.
+          Hi, I’m <strong>Prathamesh Raut</strong> — an aspiring{" "}
+          <strong>Full Stack Developer</strong> and{" "}
+          echnology enthusiast who loves building practical, user-focused applications. 
+          I enjoy creating smooth, responsive interfaces and connecting them with 
+          reliable backends to bring ideas to life.
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with motion and
-          interaction, and finding ways to blend{" "}
-          <strong>artistic creativity</strong> with{" "}
-          <strong>technical precision</strong>. My goal is to build solutions
-          that not only perform — but also inspire.
+          Beyond coding, I explore <strong>UI/UX,</strong>, experiment with clean design, 
+          and enjoy combining creativity with technical problem-solving. 
+          {" "}
+          {/* <strong>artistic creativity</strong> with{" "}
+          <strong>technical precision</strong>.  */}
+          My goal is to build solutions that are not just functional, 
+          but meaningful and impactful.
         </p>
 
         <p>
-            4th-year B.Tech AI Engineering student with hands-on experience in ML & DL Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
-            impactful AI solutions.
+            Final-year B.Tech student with hands-on experience in React, Node.js, Express, MongoDB, Python, and full-stack projects. 
+            Seeking opportunities to apply my skills, grow as a developer, and contribute to real-world software solutions.
         </p>
 
-        {/* --- Education Section --- */}
+       {/* --- Education Section --- */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -131,7 +132,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.Tech in Artificial Intelligence and Data Science
+                  B.Tech in Electronics and Telecommunication
                 </h4>
                 <p
                   style={{
@@ -139,11 +140,11 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>S.C.E.T (Sarvajanik University)</strong> — Surat,
-                  Gujarat
+                  <strong>Pimpri Chinchwad College Of engineering (Pune University)</strong> -Pune 
+                  Maharashtra
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  4th Year (Pursuing) | GPA: 9.0
+                  2025 Passout | CGPA:7.47 
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
               </div>
@@ -184,11 +185,10 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Ambika
-                  Niketan, Surat
+                  <strong>Z.P.Agarakar</strong> —Akola Mahatrashtra
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 78%
+                  MH Board | Percentage: 93.33
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
               </div>
@@ -229,13 +229,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Surat,
-                  Gujarat
+                  <strong>Sitabai Sangai High School</strong> — Anjangaon Surji,
+                  Amaravti,Maharashtra
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 69%
+                  MH Board | Percentage: 95
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2019</p>
               </div>
             </motion.div>
           </div>
